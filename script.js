@@ -16,7 +16,6 @@ var coordenadas = () => {
     return { posx, posy }
 }
 
-btnsim.addEventListener(function redirect() {
-            window.location.replace(https://youtu.be/mrHjDdTE2H8?t=84)
-        })
+btnsim.addEventListener('click', () => {
+    alert('Sabia que você queria ser minha bi');
 });
