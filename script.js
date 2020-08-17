@@ -1,5 +1,5 @@
-var btnao = document.getElementById('btnno');
-var btnsim = document.getElementById('btnyes');
+var btnnao = document.getElementById('btnnao');
+var btnsim = document.getElementById('btnsim');
 
 btnao.addEventListener('mouseenter', () => {
     console.log("mouse entrando");
