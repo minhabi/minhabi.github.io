@@ -16,6 +16,6 @@ var coordenadas = () => {
     return { posx, posy }
 }
 
-btnsim function redirect () {
-    window.location.href=(https://youtu.be/mrHjDdTE2H8?t=84)
-}
+btnsim.addEventListener('click', () => {
+    window.location.href="https://youtu.be/mrHjDdTE2H8?t=84";
+});
