@@ -1,11 +1,11 @@
 var btnnao = document.getElementById('btnnao');
 var btnsim = document.getElementById('btnsim');
 
-btnao.addEventListener('mouseenter', () => {
+btnnao.addEventListener('mouseenter', () => {
     console.log("mouse entrando");
     var pos = coordenadas();
-    btnao.style.top = `${pos.posy}px`;
-    btnao.style.left = `${pos.posx}px`;
+    btnnao.style.top = `${pos.posy}px`;
+    btnnao.style.left = `${pos.posx}px`;
 })
 
 var coordenadas = () => {
