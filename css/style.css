@@ -38,9 +38,9 @@ body {
 }
 
 .container .buttons>#btnsim {
-    margin-left: 60px;
+    margin-left: -60px;
 }
 
 .container .buttons>#btnnao {
-    margin-left: 100px;
+    margin-left: 60px;
 }
