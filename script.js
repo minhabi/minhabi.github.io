@@ -1,11 +1,11 @@
-var btnno = document.getElementById('btnno');
-var btnyes = document.getElementById('btnyes');
+var btnao = document.getElementById('btnno');
+var btnsim = document.getElementById('btnyes');
 
-btnno.addEventListener('mouseenter', () => {
+btnao.addEventListener('mouseenter', () => {
     console.log("mouse entrando");
     var pos = coordenadas();
-    btnno.style.top = `${pos.posy}px`;
-    btnno.style.left = `${pos.posx}px`;
+    btnao.style.top = `${pos.posy}px`;
+    btnao.style.left = `${pos.posx}px`;
 })
 
 var coordenadas = () => {
@@ -16,6 +16,6 @@ var coordenadas = () => {
     return { posx, posy }
 }
 
-btnyes.addEventListener('click', () => {
+btnsim.addEventListener('click', () => {
     alert('Sabia que você queria ser minha bi');
 });
