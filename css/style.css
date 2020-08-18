@@ -23,7 +23,8 @@ html,body {
 
 .container .title {
     font-size: 35px;
-    color    : white;
+    color    : hsl(194deg 100% 50%);
+    font-weight: bold;
 }
 
 .container .buttons {
@@ -49,4 +50,3 @@ html,body {
 .container .buttons>#btnnao {
     margin-left: 60px;
 }
- 
