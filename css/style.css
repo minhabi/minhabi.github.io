@@ -1,10 +1,15 @@
-html,
-body {
-    margin          : 0;
-    padding         : 0;
-    font-family     : Arial, Helvetica, sans-serif;
-    background-color: #e35183;
+html,body {
+    height: 100%
+    margin: 0;
 }
+
+.bg{
+    background-image: url("../imgs/baixados6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
 
 .container {
     display        : flex;
